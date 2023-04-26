@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gayathri Portfolio</title>
 
-  </head>
-  <body>
-    <main>
-        <h1>Gayathri Venu</h1>  
-        <h2>Software Developer</h2>
-    </main>
-	
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gayathri Portfolio</title>
+  <style>
+    .light {
+      background-color: #e7e7e7;
+      color: #111111;
+    }
+
+    .dark {
+      background-color: #111111;
+      color: #e7e7e7;
+    }
+  </style>
+
+
+</head>
+
+<body class="light">
+
+  <main>
+
+    <h1>Gayathri Venu</h1>
+    <button id="dark-btn">Dark</button>
+    <button id="light-btn">Light</button>
+    <h2>Software Developer</h2>
+  </main>
+
+</body>
+<script>
+  const buttons = document.getElementsByTagName("button");
+  console.log(buttons[1])
+  const darkButton = document.getElementById("dark-btn");
+  const lightButton = document.getElementById("light-btn");
+  const bodyTag = document.getElementsByTagName("body");
+  darkButton.addEventListener("click",function(event){
+    bodyTag[0].classList.remove("light");
+    bodyTag[0].classList.add("dark");
+  });
+
+  lightButton.addEventListener("click",function(event){
+    bodyTag[0].classList.remove("dark");
+    bodyTag[0].classList.add("light");
+  });
+
+</script>
+
 </html>
