@@ -1,0 +1,29 @@
+  *{
+    margin : 0;
+    padding :0;
+  }
+
+
+
+    .light {
+      background-color: #e7e7e7;
+      color: #111111;
+    }
+
+    
+    .dark {
+      background-color: #111111;
+      color: #e7e7e7;
+    }
+
+    #header{
+
+      background-color: aquamarine;
+      color : #111111;
+      padding:10px;
+      flex-wrap: wrap;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
