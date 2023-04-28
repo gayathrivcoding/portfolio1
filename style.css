@@ -27,3 +27,21 @@
       align-items: center;
 
     }
+
+    .flexBox{
+          max-width: 600px;
+           outline : 1px solid blue;
+           display : flex;
+            justify-content:right; 
+            flex-wrap:wrap;
+
+          /* flex box width is based on wrap */
+    }
+
+    .item{
+      min-width: 300px;
+      outline : 1px solid pink;
+      background-color: red;
+   }
+   
+   
