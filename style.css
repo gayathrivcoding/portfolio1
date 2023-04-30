@@ -29,19 +29,46 @@
     }
 
     .flexBox{
-          max-width: 600px;
+          min-height: 300px;
            outline : 1px solid blue;
            display : flex;
-            justify-content:right; 
-            flex-wrap:wrap;
+            /* justify-content:center;  */
+            /* flex-wrap:wrap; */
+            /* align-items: center; */
+            /* align-content:space-between;  */
 
-          /* flex box width is based on wrap */
     }
 
     .item{
-      min-width: 300px;
+      width: 200px;
+      height:100px;
       outline : 1px solid pink;
       background-color: red;
+     
    }
-   
+   .first{
+    /* align-self:flex-start; */
+    /* order: 1; */
+    /* justify-self: left; */
+    flex-grow: 5;
+    flex-shrink :0;  
+     
+   }
+   .second{
+    /* align-self:flex-end; */
+    /* order:1; */
+    flex-grow:2;
+    /* flex-shrink :0;  */
+    
+   }
+   .third {
+    /* align-self: flex-start; */
+    /* order: 1; */
+    /* flex-grow: 2;  */
+   }
+   .fourth{
+    /* align-self: flex-end; */
+    /* order :1; */
+    /* flex-grow: 2;  */
+   }
    
