@@ -29,7 +29,7 @@
     }
 
     .flexBox{
-          min-height: 300px;
+          /* min-height: 300px; */
            outline : 1px solid blue;
            display : flex;
             /* justify-content:center;  */
@@ -40,8 +40,9 @@
     }
 
     .item{
-      width: 200px;
-      height:100px;
+      /* width: 200px; */
+      /* height:100px; */
+      padding : 10px;
       outline : 1px solid pink;
       background-color: red;
      
@@ -50,14 +51,14 @@
     /* align-self:flex-start; */
     /* order: 1; */
     /* justify-self: left; */
-    flex-grow: 5;
+    flex-grow: 1;
     flex-shrink :0;  
      
    }
    .second{
     /* align-self:flex-end; */
     /* order:1; */
-    flex-grow:2;
+    /* flex-grow:2; */
     /* flex-shrink :0;  */
     
    }
@@ -71,4 +72,18 @@
     /* order :1; */
     /* flex-grow: 2;  */
    }
+
+   .apple{
+    color:red;
+   }
    
+
+   .box{
+    display :inline-block; 
+    border: 1px solid red;
+    height: 50px;
+    width : 50px;
+    padding : 10px;
+    margin : 5px;
+    box-sizing:border-box; 
+   }
