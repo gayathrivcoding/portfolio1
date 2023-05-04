@@ -39,14 +39,27 @@
 
     }
 
+
+    img{
+       width:300px;/*height automatically */
+    }
     .item{
       /* width: 200px; */
       /* height:100px; */
-      padding : 10px;
+      /* padding : 10px; */
       outline : 1px solid pink;
-      background-color: red;
+      /* background-color: rgba(0,0,0,0.5); */
+      background-color: rgba(255,0,0,0.5);
+     padding-left: 2px;
+     padding-right: 1px;
+     padding-top: 1px;
+     padding-top: 6px;
+
+     padding :2px 5px 3px 8px;
      
    }
+
+
    .first{
     /* align-self:flex-start; */
     /* order: 1; */
@@ -87,3 +100,27 @@
     margin : 5px;
     box-sizing:border-box; 
    }
+
+
+   .list_container{
+    padding:40px;
+   }
+
+
+   .list{
+  
+    /* display:flex;  */
+   }
+
+   /* .list > li {  margin: 0px 45px ;} */
+
+   .list {
+    background-color: yellow;
+    /* list-style: none; */
+    list-style-position: outside;
+    list-style:lower-alpha;
+
+    
+   }
+
+   
